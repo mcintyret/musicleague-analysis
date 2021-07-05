@@ -1,0 +1,9 @@
+target/
+build/
+node_modules/
+generated/
+data/index/
+.idea/
+.DS_STORE
+._*
+*.iml

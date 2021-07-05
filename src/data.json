@@ -1,0 +1,5978 @@
+{
+  "id": "607226726c5a98003664c1f8",
+  "title": "I'M A BELEAGUER",
+  "rounds": [
+    {
+      "title": "Run For Cover",
+      "id": "607226726c5a98003664c1f9",
+      "description": "To kick things off, pick 3 cover songs you think eclipse the original, or are just great songs themselves. 2021-04-12T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Muse",
+            "name": "Feeling Good",
+            "spotifyLink": "https://open.spotify.com/track/5Yj4AP0JGQWierBFKdKVyS"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jimi Hendrix",
+            "name": "All Along the Watchtower",
+            "spotifyLink": "https://open.spotify.com/track/2aoo2jlRnM3A0NyLQqMN2f"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Johnny Cash",
+            "name": "Hurt",
+            "spotifyLink": "https://open.spotify.com/track/28cnXtME493VX9NOw9cIUh"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Annie Lennox",
+            "name": "Take Me to the River",
+            "spotifyLink": "https://open.spotify.com/track/4jMj7rLEvT2ygN5TKva0f0"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Toots & The Maytals",
+            "name": "Take Me Home, Country Roads",
+            "spotifyLink": "https://open.spotify.com/track/389R9arpxdfl0JA450Qn9m"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Gipsy Kings",
+            "name": "Hotel California - Spanish Mix",
+            "spotifyLink": "https://open.spotify.com/track/7kqJYwslL9On4GkYviioFG"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Mark Ronson",
+            "name": "Valerie (feat. Amy Winehouse) - Version Revisited",
+            "spotifyLink": "https://open.spotify.com/track/1UxisKljksGRNwJBPp4Tri"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Marvin Gaye",
+            "name": "I Heard It Through The Grapevine",
+            "spotifyLink": "https://open.spotify.com/track/1tqT6DhmsrtQgyCKUwotiw"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Reel Big Fish",
+            "name": "Take On Me",
+            "spotifyLink": "https://open.spotify.com/track/2IUrRzPLF3jq3VQsMkM3ve"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Nirvana",
+            "name": "The Man Who Sold The World",
+            "spotifyLink": "https://open.spotify.com/track/15VRO9CQwMpbqUYA7e6Hwg"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Communards",
+            "name": "Don't Leave Me This Way (with Sarah Jane Morris)",
+            "spotifyLink": "https://open.spotify.com/track/0ire4j2mcGovF5JA1D2cTp"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Phil Collins",
+            "name": "You Can't Hurry Love - 2016 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/4YwbSZaYeYja8Umyt222Qf"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Guns N' Roses",
+            "name": "Live And Let Die",
+            "spotifyLink": "https://open.spotify.com/track/0rFWuqFgHAfuzE8uSB9TWR"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Animals",
+            "name": "House of the Rising Sun",
+            "spotifyLink": "https://open.spotify.com/track/4mn2kNTqiGLwaUR8JdhJ1l"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Guns N' Roses",
+            "name": "Sympathy For The Devil",
+            "spotifyLink": "https://open.spotify.com/track/4InpYF6IH5bhuHwG0R0faj"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Placebo",
+            "name": "Running Up That Hill",
+            "spotifyLink": "https://open.spotify.com/track/6RHHbAbyIcPpvS1dP3KUGq"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jeff Buckley",
+            "name": "Hallelujah",
+            "spotifyLink": "https://open.spotify.com/track/3pRaLNL3b8x5uBOcsgvdqM"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Soft Cell",
+            "name": "Tainted Love",
+            "spotifyLink": "https://open.spotify.com/track/0cGG2EouYCEEC3xfa0tDFV"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Whitney Houston",
+            "name": "I Will Always Love You",
+            "spotifyLink": "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jimi Hendrix",
+            "name": "Red House",
+            "spotifyLink": "https://open.spotify.com/track/7bbf6izisrvlYdFVGeV8q9"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Santana",
+            "name": "Oye Como Va",
+            "spotifyLink": "https://open.spotify.com/track/5u6y4u5EgDv0peILf60H5t"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Starting Line",
+            "name": "Nothing's Gonna Stop Us Now",
+            "spotifyLink": "https://open.spotify.com/track/5X6bhVtHHgyOID7bCIlHSe"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "José González",
+            "name": "Heartbeats",
+            "spotifyLink": "https://open.spotify.com/track/5YqpHuXpFjDVZ7tY1ClFll"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Kesha",
+            "name": "Old Flames (Can't Hold A Candle To You) (feat. Dolly Parton)",
+            "spotifyLink": "https://open.spotify.com/track/6qBjkG0b9r7tuVDFl68uiT"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Cake",
+            "name": "War Pigs",
+            "spotifyLink": "https://open.spotify.com/track/0VCxnMdEmqM4SVc5TXcmIV"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Bedlam",
+            "name": "Magic Carpet Ride",
+            "spotifyLink": "https://open.spotify.com/track/3dAy4jvPtlFQvJmuJMYBdU"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Aretha Franklin",
+            "name": "Respect",
+            "spotifyLink": "https://open.spotify.com/track/7s25THrKz86DM225dOYwnr"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Florence + The Machine",
+            "name": "You've Got The Love",
+            "spotifyLink": "https://open.spotify.com/track/244AvzGQ4Ksa5637JQu5Gy"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The White Stripes",
+            "name": "I Just Don't Know What to Do With Myself",
+            "spotifyLink": "https://open.spotify.com/track/5F6tUpAoDzz5PjJos99176"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Noah Guthrie",
+            "name": "Sexy And I Know It",
+            "spotifyLink": "https://open.spotify.com/track/7C2kIGrflgP2RKqMuf9GJR"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Let's Get It On",
+      "id": "607226726c5a98003664c1fa",
+      "description": "Don't be embarrassed, tell us all your secret weapon when it comes to the art of seduction... 2021-04-14T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Flight of the Conchords",
+            "name": "Business Time",
+            "spotifyLink": "https://open.spotify.com/track/6WUeQiXtr5KQB4RT4fbr63"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Bloodhound Gang",
+            "name": "The Bad Touch",
+            "spotifyLink": "https://open.spotify.com/track/5EYdTPdJD74r9EVZBztqGG"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Lionel Richie",
+            "name": "All Night Long - Single Version",
+            "spotifyLink": "https://open.spotify.com/track/4giIdAr7Plyu5LQzBOR4FP"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Hot Chocolate",
+            "name": "You Sexy Thing",
+            "spotifyLink": "https://open.spotify.com/track/714hERk9U1W8FMYkoC83CO"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Divinyls",
+            "name": "I Touch Myself",
+            "spotifyLink": "https://open.spotify.com/track/6oNvmplQGUkmAh441Teows"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Tenacious D",
+            "name": "Fuck Her Gently",
+            "spotifyLink": "https://open.spotify.com/track/3USOTQdPtZlgVurwaqsdI5"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Chris Stapleton",
+            "name": "Tennessee Whiskey",
+            "spotifyLink": "https://open.spotify.com/track/3fqwjXwUGN6vbzIwvyFMhx"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Joe Cocker",
+            "name": "You Can Leave Your Hat On",
+            "spotifyLink": "https://open.spotify.com/track/6nAaaq5r8rjsBE1DdeTCKs"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Rick James",
+            "name": "Give It To Me Baby",
+            "spotifyLink": "https://open.spotify.com/track/13v3siPyvy5TTEZYmGPPse"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Kavinsky",
+            "name": "Nightcall",
+            "spotifyLink": "https://open.spotify.com/track/74rvo4QWd2LXGRvm7S07kq"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Prince",
+            "name": "Kiss",
+            "spotifyLink": "https://open.spotify.com/track/62LJFaYihsdVrrkgUOJC05"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Marvin Gaye",
+            "name": "Let's Get It On",
+            "spotifyLink": "https://open.spotify.com/track/39l1UORIhuHvUWfxG53tRZ"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Marvin Gaye",
+            "name": "Sexual Healing",
+            "spotifyLink": "https://open.spotify.com/track/3VZmChrnVW8JK6ano4gSED"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Zero 7",
+            "name": "In The Waiting Line",
+            "spotifyLink": "https://open.spotify.com/track/5ARrtxJLVCeTv5TWo1oKgC"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Touch & Go",
+            "name": "Would You...?",
+            "spotifyLink": "https://open.spotify.com/track/1NcvMCA0sT05KwneYsD2TY"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "blink-182",
+            "name": "Feeling This",
+            "spotifyLink": "https://open.spotify.com/track/26AYR77170U49cMcXB7aRV"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Deftones",
+            "name": "My Own Summer (Shove It)",
+            "spotifyLink": "https://open.spotify.com/track/1158ckiB5S4cpsdYHDB9IF"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sarah Vaughan",
+            "name": "Fever - Adam Freeland Remix",
+            "spotifyLink": "https://open.spotify.com/track/0LGYq4NOrHS89tfLKovEWL"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Meters",
+            "name": "Just Kissed My Baby",
+            "spotifyLink": "https://open.spotify.com/track/1TB0dZqFRQsnf4fLLLRKQV"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Caesars",
+            "name": "Jerk It Out",
+            "spotifyLink": "https://open.spotify.com/track/1bx7OUl2UmAnA5oZkm9If7"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Michael Jackson",
+            "name": "In the Closet",
+            "spotifyLink": "https://open.spotify.com/track/5Fy40smNxk0j5OpFMtvfaU"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Josh Gad",
+            "name": "Baptize Me",
+            "spotifyLink": "https://open.spotify.com/track/7LyYK173QOgj389valYJwv"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Gioachino Rossini",
+            "name": "Overture, William Tell (Finale)",
+            "spotifyLink": "https://open.spotify.com/track/3j01GIGm0LYSzbO7X0NfYM"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Chromeo",
+            "name": "Needy Girl - Radio Edit",
+            "spotifyLink": "https://open.spotify.com/track/4ZGXAhqFQupuLqB91HzZWq"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Gladys Knight & The Pips",
+            "name": "Midnight Train to Georgia",
+            "spotifyLink": "https://open.spotify.com/track/7MF7QAodbGzNYav5ZfIhAY"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Tom Jones",
+            "name": "Sexbomb",
+            "spotifyLink": "https://open.spotify.com/track/7GHKA8GIMcND6c5nN1sFnD"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Extreme",
+            "name": "More Than Words",
+            "spotifyLink": "https://open.spotify.com/track/1gVgkQFOKa8Wc1HYsJtPdH"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Black Crowes",
+            "name": "Descending",
+            "spotifyLink": "https://open.spotify.com/track/47VIOQHt2EJ05M1PwIhsBY"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "John Prine",
+            "name": "In Spite of Ourselves",
+            "spotifyLink": "https://open.spotify.com/track/3nNo0cbYUnavEEtrMdIJGL"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Aphex Twin",
+            "name": "Come To Daddy (Pappy Mix)",
+            "spotifyLink": "https://open.spotify.com/track/53T0V3jTJDs3kIqwvlgspI"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Hits From The Bong",
+      "id": "607226726c5a98003664c1fb",
+      "description": "A couple of us have occasionally been partial to the odd marijuana cigarette - what are your go to tunes to enjoy such a high brow activity?2021-04-16T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Jurassic 5",
+            "name": "Concrete Schoolyard",
+            "spotifyLink": "https://open.spotify.com/track/0dtVSZDRv6PorrnX0cbFT7"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Massive Attack",
+            "name": "Teardrop",
+            "spotifyLink": "https://open.spotify.com/track/67Hna13dNDkZvBpTXRIaOJ"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Mad Caddies",
+            "name": "Backyard",
+            "spotifyLink": "https://open.spotify.com/track/28ik7bti00MF9XHdVcjMHn"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Freddie King",
+            "name": "Going Down",
+            "spotifyLink": "https://open.spotify.com/track/2wnjZXcAT3rCjjqxLeHjv7"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Prodigy",
+            "name": "Spitfire",
+            "spotifyLink": "https://open.spotify.com/track/65m3XlmjBPioRtWxmdyIDB"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Bob Marley & The Wailers",
+            "name": "Three Little Birds",
+            "spotifyLink": "https://open.spotify.com/track/6A9mKXlFRPMPem6ygQSt7z"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sublime",
+            "name": "Smoke Two Joints",
+            "spotifyLink": "https://open.spotify.com/track/0Jur3mZsQba3vqSpcmsOPm"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Easy Star All-Stars",
+            "name": "Money",
+            "spotifyLink": "https://open.spotify.com/track/5QREkNN2kAKUsXppK9Vrcu"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Zero 7",
+            "name": "Futures",
+            "spotifyLink": "https://open.spotify.com/track/7m3Tbsn12hbBnsFHR6O4U7"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Weezer",
+            "name": "Hash Pipe",
+            "spotifyLink": "https://open.spotify.com/track/3GcVQCRSaPNupmf65YKyQI"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Cypress Hill",
+            "name": "Hits from the Bong",
+            "spotifyLink": "https://open.spotify.com/track/0cfqYhY6B8PbGF9vaVNUeG"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Arcade Player",
+            "name": "Mario Raceway",
+            "spotifyLink": "https://open.spotify.com/track/5VGyaBnrhIoRBT3ZHFAHaj"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Streets",
+            "name": "Turn the Page",
+            "spotifyLink": "https://open.spotify.com/track/42F4K181FFdhkbDAaoxDye"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Bob Marley & The Wailers",
+            "name": "Buffalo Soldier",
+            "spotifyLink": "https://open.spotify.com/track/7BfW1eoDh27W69nxsmRicb"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Brooklyn Boogaloo Blowout",
+            "name": "Trailer Park Boys Theme Song",
+            "spotifyLink": "https://open.spotify.com/track/6ttRYAio3PJsYZtnclCkGp"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Smith & Mudd",
+            "name": "24/7",
+            "spotifyLink": "https://open.spotify.com/track/2QoDmOEg63jeiWS5Usu56Z"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Pure Reason Revolution",
+            "name": "The Bright Ambassadors of Morning",
+            "spotifyLink": "https://open.spotify.com/track/299r3S9mLmeyIHk7Z6Rrfj"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Keith Mansfield",
+            "name": "Funky Fanfare",
+            "spotifyLink": "https://open.spotify.com/track/3Vr406z58yyyO2Ofh1fbqA"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "DJ Shadow",
+            "name": "Changeling",
+            "spotifyLink": "https://open.spotify.com/track/4TEdXKd9AKAclNPLLodIgM"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Damian Marley",
+            "name": "Welcome To Jamrock",
+            "spotifyLink": "https://open.spotify.com/track/22AbXxQbMdVqEz7xJjhccG"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Pink Floyd",
+            "name": "Comfortably Numb - 2011 Remastered Version",
+            "spotifyLink": "https://open.spotify.com/track/7Fg4jpwpkdkGCvq1rrXnvx"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Pink Floyd",
+            "name": "Comfortably Numb - Live",
+            "spotifyLink": "https://open.spotify.com/track/1YWrmtnx5ct5dgiyJOEHe6"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Metronomy",
+            "name": "The Look",
+            "spotifyLink": "https://open.spotify.com/track/6zfczP87XO2SxWlQtnjFNa"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Unknown Mortal Orchestra",
+            "name": "Multi-Love",
+            "spotifyLink": "https://open.spotify.com/track/0PEXp5yk0sx9dJ8JzwvjJb"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Musical Youth",
+            "name": "Pass The Dutchie",
+            "spotifyLink": "https://open.spotify.com/track/1BkY0N8ChFk2mdLbAUu8ZK"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Velvet Underground",
+            "name": "Sweet Jane",
+            "spotifyLink": "https://open.spotify.com/track/2LAZn3ygMkecVRmyXvGjHO"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Slightly Stoopid",
+            "name": "Collie Man",
+            "spotifyLink": "https://open.spotify.com/track/3Zjdqz7eOox8XU0zTCPL4P"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Fontella Bass",
+            "name": "Baby What You Want Me To Do",
+            "spotifyLink": "https://open.spotify.com/track/4tr6YB9fxIpveC4m4SmxaO"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Portico Quartet",
+            "name": "Prickly Pear",
+            "spotifyLink": "https://open.spotify.com/track/6e65fH1wClamA2QPI5HUi3"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Afroman",
+            "name": "Because I Got High",
+            "spotifyLink": "https://open.spotify.com/track/0rRboI6IRuGx56Dq3UdYY4"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Under The Influence",
+      "id": "607226726c5a98003664c1fc",
+      "description": "Who paved the way for generations to come? What do you think are some of the most important songs in the history of music?2021-04-18T19:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "Bohemian Rhapsody",
+            "spotifyLink": "https://open.spotify.com/track/3z8h0TU7ReDPLIbEnYhWZb"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Nirvana",
+            "name": "Smells Like Teen Spirit",
+            "spotifyLink": "https://open.spotify.com/track/1f3yAtsJtY87CTmM8RLnxf"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Chuck Berry",
+            "name": "Johnny B. Goode",
+            "spotifyLink": "https://open.spotify.com/track/2QfiRTz5Yc8DdShCxG1tB2"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Rage Against The Machine",
+            "name": "Killing In The Name",
+            "spotifyLink": "https://open.spotify.com/track/59WN2psjkt1tyaxjspN8fp"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Elvis Presley",
+            "name": "Suspicious Minds",
+            "spotifyLink": "https://open.spotify.com/track/1H5IfYyIIAlgDX8zguUzns"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "David Bowie",
+            "name": "Space Oddity - 1990 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/6OoP5qBU6kzoD8S9q4yNpK"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Rolling Stones",
+            "name": "Gimme Shelter",
+            "spotifyLink": "https://open.spotify.com/track/6H3kDe7CGoWYBabAeVWGiD"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Lynyrd Skynyrd",
+            "name": "Free Bird",
+            "spotifyLink": "https://open.spotify.com/track/5EWPGh7jbTNO2wakv8LjUI"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Michael Jackson",
+            "name": "Thriller",
+            "spotifyLink": "https://open.spotify.com/track/2LlQb7Uoj1kKyGhlkBf9aC"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Beatles",
+            "name": "Hey Jude",
+            "spotifyLink": "https://open.spotify.com/track/1eT2CjXwFXNx6oY5ydvzKU"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Elvis Presley",
+            "name": "Jailhouse Rock",
+            "spotifyLink": "https://open.spotify.com/track/4gphxUgq0JSFv2BCLhNDiE"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sam Cooke",
+            "name": "A Change Is Gonna Come",
+            "spotifyLink": "https://open.spotify.com/track/0KOE1hat4SIer491XKk4Pa"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Prince",
+            "name": "Purple Rain",
+            "spotifyLink": "https://open.spotify.com/track/54X78diSLoUDI3joC2bjMz"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Dire Straits",
+            "name": "Sultans Of Swing",
+            "spotifyLink": "https://open.spotify.com/track/37Tmv4NnfQeb0ZgUC4fOJj"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "I Want To Break Free - Remastered 2011",
+            "spotifyLink": "https://open.spotify.com/track/1MsBRSbt5dqJSw3RxXtvCM"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Clash",
+            "name": "London Calling - Remastered",
+            "spotifyLink": "https://open.spotify.com/track/5jzma6gCzYtKB1DbEwFZKH"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Prodigy",
+            "name": "Firestarter",
+            "spotifyLink": "https://open.spotify.com/track/79CUrU5o2KAVDTNm4x3eGU"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Green Day",
+            "name": "Longview",
+            "spotifyLink": "https://open.spotify.com/track/3LRJbFT9rKoKv4aW7PuBJC"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "AC/DC",
+            "name": "Highway to Hell",
+            "spotifyLink": "https://open.spotify.com/track/2zYzyRzz6pRmhPzyfMEC8s"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Michael Jackson",
+            "name": "Billie Jean",
+            "spotifyLink": "https://open.spotify.com/track/5ChkMS8OtdzJeqyybCc9R5"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Beatles",
+            "name": "I Want To Hold Your Hand - Remastered 2015",
+            "spotifyLink": "https://open.spotify.com/track/4pbG9SUmWIvsROVLF0zF9s"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Faith No More",
+            "name": "Epic",
+            "spotifyLink": "https://open.spotify.com/track/4ReyTz0y3TGkX48wO3Llot"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Fatboy Slim",
+            "name": "Praise You - Radio Edit",
+            "spotifyLink": "https://open.spotify.com/track/2tn9zXqIZJbgL1swqwOktz"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Beach Boys",
+            "name": "Good Vibrations",
+            "spotifyLink": "https://open.spotify.com/track/6aU6a9tdn2vHhnPGlboFZX"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Black Sabbath",
+            "name": "Paranoid",
+            "spotifyLink": "https://open.spotify.com/track/1jzDzZWeSDBg5fhNc3tczV"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Sex Pistols",
+            "name": "Anarchy In The UK - Remastered 2012",
+            "spotifyLink": "https://open.spotify.com/track/1FO2264b0mXk3rpzMb3LqH"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Daft Punk",
+            "name": "One More Time",
+            "spotifyLink": "https://open.spotify.com/track/0DiWol3AO6WpXZgp0goxAV"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Radiohead",
+            "name": "Creep",
+            "spotifyLink": "https://open.spotify.com/track/70LcF31zb1H0PyJoS1Sx1r"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "John Lennon",
+            "name": "Imagine - Remastered 2010",
+            "spotifyLink": "https://open.spotify.com/track/7pKfPomDEeI4TPT6EOYjn9"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Madonna",
+            "name": "Like a Virgin",
+            "spotifyLink": "https://open.spotify.com/track/1ZPlNanZsJSPK5h9YZZFbZ"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "This Is A Man's World",
+      "id": "607226726c5a98003664c1fd",
+      "description": "There's no doubt that music is male dominated, so let show some love for some of the best women in the biz!2021-04-20T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Dusty Springfield",
+            "name": "Son Of A Preacher Man",
+            "spotifyLink": "https://open.spotify.com/track/6ek9SiEj5a65WIs2EV7qiM"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Gloria Gaynor",
+            "name": "I Will Survive",
+            "spotifyLink": "https://open.spotify.com/track/5GGVL37gRgOMEAVGSP5O71"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Eurythmics",
+            "name": "Sweet Dreams (Are Made of This) - Remastered",
+            "spotifyLink": "https://open.spotify.com/track/1TfqLAPs4K3s2rJMoCokcS"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Stevie Nicks",
+            "name": "Edge of Seventeen",
+            "spotifyLink": "https://open.spotify.com/track/2id8E4WvczfKHB4LHI7Np3"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Aretha Franklin",
+            "name": "I Say A Little Prayer",
+            "spotifyLink": "https://open.spotify.com/track/6bBwFPgVdWxuc4uWEyALCa"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sheryl Crow",
+            "name": "If It Makes You Happy",
+            "spotifyLink": "https://open.spotify.com/track/0lfPPoWG4b3OmhieJ2YDF0"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sinéad O'Connor",
+            "name": "Nothing Compares 2 U",
+            "spotifyLink": "https://open.spotify.com/track/3nvuPQTw2zuFAVuLsC9IYQ"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Adele",
+            "name": "Someone Like You",
+            "spotifyLink": "https://open.spotify.com/track/3bNv3VuUOKgrf5hu3YcuRo"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Etta James",
+            "name": "Something's Got A Hold On Me",
+            "spotifyLink": "https://open.spotify.com/track/6EAlFsajDK1PVgfhdJbS5Y"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Dolly Parton",
+            "name": "Jolene",
+            "spotifyLink": "https://open.spotify.com/track/2SpEHTbUuebeLkgs9QB7Ue"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Etta James",
+            "name": "I'd Rather Go Blind",
+            "spotifyLink": "https://open.spotify.com/track/1kPBT8S2wJFNAyBMnGVZgL"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Aretha Franklin",
+            "name": "The House That Jack Built",
+            "spotifyLink": "https://open.spotify.com/track/3uK6SqdNXutPBNi6vUenpt"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Dolly Parton",
+            "name": "My Tennessee Mountain Home",
+            "spotifyLink": "https://open.spotify.com/track/6rQlfR31QLNCBrq0no1Qc2"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Shania Twain",
+            "name": "Man! I Feel Like A Woman!",
+            "spotifyLink": "https://open.spotify.com/track/6sxptembJVty4sNtcPMAVz"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Nina Simone",
+            "name": "Feeling Good",
+            "spotifyLink": "https://open.spotify.com/track/6Rqn2GFlmvmV4w9Ala0I1e"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Tracy Chapman",
+            "name": "Fast Car",
+            "spotifyLink": "https://open.spotify.com/track/2M9ro2krNb7nr7HSprkEgo"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Fugees",
+            "name": "Killing Me Softly With His Song",
+            "spotifyLink": "https://open.spotify.com/track/0Q0IVlqMV64kNLlwjPj0Hl"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Alicia Keys",
+            "name": "Fallin'",
+            "spotifyLink": "https://open.spotify.com/track/0KQx6HOpJueiSkztcS0r7D"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Beyoncé",
+            "name": "Halo",
+            "spotifyLink": "https://open.spotify.com/track/2CvOqDpQIMw69cCzWqr5yr"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Tina Turner",
+            "name": "What's Love Got to Do with It",
+            "spotifyLink": "https://open.spotify.com/track/4kOfxxnW1ukZdsNbCKY9br"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "No Doubt",
+            "name": "Just A Girl",
+            "spotifyLink": "https://open.spotify.com/track/1VA38sp5Jr6vWxgoIcnxKN"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Tina Turner",
+            "name": "The Best - Edit",
+            "spotifyLink": "https://open.spotify.com/track/40hIuxoe1aHcfnjOjl6Tkj"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "No Doubt",
+            "name": "Don't Speak",
+            "spotifyLink": "https://open.spotify.com/track/6urCAbunOQI4bLhmGpX7iS"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Spice Girls",
+            "name": "Wannabe",
+            "spotifyLink": "https://open.spotify.com/track/1Je1IMUlBXcx1Fz0WE7oPT"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Dolly Parton",
+            "name": "9 to 5",
+            "spotifyLink": "https://open.spotify.com/track/4w3tQBXhn5345eUXDGBWZG"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Cher",
+            "name": "If I Could Turn Back Time",
+            "spotifyLink": "https://open.spotify.com/track/6mYrhCAGWzTdF8QnKuchXM"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Florence + The Machine",
+            "name": "Dog Days Are Over",
+            "spotifyLink": "https://open.spotify.com/track/1YLJVmuzeM2YSUkCCaTNUB"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Avril Lavigne",
+            "name": "Complicated",
+            "spotifyLink": "https://open.spotify.com/track/5xEM5hIgJ1jjgcEBfpkt2F"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Taylor Swift",
+            "name": "Shake It Off",
+            "spotifyLink": "https://open.spotify.com/track/0cqRj7pUJDkTCEsJkx8snD"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Mean Poppa Lean",
+            "name": "Sheryl Crow",
+            "spotifyLink": "https://open.spotify.com/track/73iDQd82jhTC2Yk7k0nKDo"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Girls On Film",
+      "id": "607226726c5a98003664c1fe",
+      "description": "From Mamma Mia to Kill Bill, pick any 3 songs as long as they have featured on a film soundtrack. 2021-04-22T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Ray Parker Jr.",
+            "name": "Ghostbusters",
+            "spotifyLink": "https://open.spotify.com/track/300zfRaCgTmEm5Eqe3HqZZ"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Survivor",
+            "name": "Eye of the Tiger",
+            "spotifyLink": "https://open.spotify.com/track/2KH16WveTQWT6KOG9Rg6e2"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Creedence Clearwater Revival",
+            "name": "Fortunate Son",
+            "spotifyLink": "https://open.spotify.com/track/4BP3uh0hFLFRb5cjsgLqDh"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Huey Lewis & The News",
+            "name": "The Power Of Love",
+            "spotifyLink": "https://open.spotify.com/track/2olVm1lHicpveMAo4AUDRB"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Power Tool",
+            "name": "Two Heads Are Better Than One",
+            "spotifyLink": "https://open.spotify.com/track/0qdvGRp9CezqI9vFrlhKRW"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Simple Minds",
+            "name": "Don't You (Forget About Me)",
+            "spotifyLink": "https://open.spotify.com/track/6yEAAIEHu4GcUFptg5W9kI"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Monty Python",
+            "name": "Always Look On The Bright Side Of Life",
+            "spotifyLink": "https://open.spotify.com/track/4DEcdqqKokU7UAE4wCGQEy"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Elton John",
+            "name": "Pinball Wizard - Remastered / From \"Tommy\" Original Motion Picture Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/67JETmwbi0ghpaBY7uxuLt"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jon Bon Jovi",
+            "name": "Blaze Of Glory - From \"Young Guns II\" Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/1sUTfgduT0WIQO8kXKXxLC"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "Flash - Single Version",
+            "spotifyLink": "https://open.spotify.com/track/5aswWmjJLHBSYFknQjegfg"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Iggy Pop",
+            "name": "Lust For Life",
+            "spotifyLink": "https://open.spotify.com/track/21YxK0klhpfLW8budkJaMF"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Contours",
+            "name": "Do You Love Me - From \"Dirty Dancing\" Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/5q6RTWaoIIPVQHTagwn8no"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Chris Cornell",
+            "name": "You Know My Name - From \"Casino Royale\" Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/3acBQxxlyb0jC2xqndDzSf"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Eminem",
+            "name": "Lose Yourself",
+            "spotifyLink": "https://open.spotify.com/track/7MJQ9Nfxzh8LPZ9e9u68Fq"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "George Baker Selection",
+            "name": "Little Green Bag",
+            "spotifyLink": "https://open.spotify.com/track/5dmlMfZajWNbUskAg9CN3V"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Redbone",
+            "name": "Come And Get Your Love",
+            "spotifyLink": "https://open.spotify.com/track/2T43UrvAg60ubJVo5KQ3t7"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Gene Kelly",
+            "name": "Singing in the Rain",
+            "spotifyLink": "https://open.spotify.com/track/1v3WeKMbJ3jy8SqDIV8coD"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "John Travolta",
+            "name": "Summer Nights - From “Grease”",
+            "spotifyLink": "https://open.spotify.com/track/2AVkArcfALVk2X8sfPRzya"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Sammy Hagar",
+            "name": "Heavy Metal",
+            "spotifyLink": "https://open.spotify.com/track/75dBEvc6WfD8ZJpHV7CQSp"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Tim Cappello",
+            "name": "I Still Believe",
+            "spotifyLink": "https://open.spotify.com/track/0ClgwgBbok62NjS6iWxY4p"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Rage Against The Machine",
+            "name": "Wake Up",
+            "spotifyLink": "https://open.spotify.com/track/4RMnX40z03gmN3EN7HQHB7"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Chuck Berry",
+            "name": "You Never Can Tell",
+            "spotifyLink": "https://open.spotify.com/track/7p6ZGUXjUe0ctAu5RNnghu"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Stealers Wheel",
+            "name": "Stuck In The Middle With You",
+            "spotifyLink": "https://open.spotify.com/track/1b7LMtXCXGc2EwOIplI35z"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Lynyrd Skynyrd",
+            "name": "Sweet Home Alabama",
+            "spotifyLink": "https://open.spotify.com/track/7e89621JPkKaeDSTQ3avtg"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Blues Brothers",
+            "name": "Sweet Home Chicago",
+            "spotifyLink": "https://open.spotify.com/track/1OJO3vsGqwbIQuLPGeY2Sb"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Kenny Loggins",
+            "name": "Danger Zone - From \"Top Gun\" Original Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/34x6hEJgGAOQvmlMql5Ige"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Aerosmith",
+            "name": "I Don't Want to Miss a Thing - From \"Armageddon\" Soundtrack",
+            "spotifyLink": "https://open.spotify.com/track/225xvV8r1yKMHErSWivnow"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Whitney Houston",
+            "name": "I Will Always Love You",
+            "spotifyLink": "https://open.spotify.com/track/4eHbdreAnSOrDDsFfc4Fpm"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Bob Dylan",
+            "name": "Knockin' On Heaven's Door",
+            "spotifyLink": "https://open.spotify.com/track/6HSXNV0b4M4cLJ7ljgVVeh"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Claudia Pizá",
+            "name": "Hakuna Matata",
+            "spotifyLink": "https://open.spotify.com/track/2BFnHiGCfLy5Z96yMeO50g"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Judge Jury And Executioner",
+      "id": "607226726c5a98003664c1ff",
+      "description": "I know we are all super cool, but surely we all have guilty pleasures. No judgment here, just pick 3 songs you wish you didn't like.2021-04-24T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Wheatus",
+            "name": "Teenage Dirtbag",
+            "spotifyLink": "https://open.spotify.com/track/25FTMokYEbEWHEdss5JLZS"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "ABBA",
+            "name": "Does Your Mother Know",
+            "spotifyLink": "https://open.spotify.com/track/0Ny4yM9JFFuCUZ497ouxKe"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "N-Trance",
+            "name": "Set You Free - 1994 Edit",
+            "spotifyLink": "https://open.spotify.com/track/6EKMwaNzxKVwkX4BD8t2ds"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Backstreet Boys",
+            "name": "Everybody (Backstreet's Back) - Radio Edit",
+            "spotifyLink": "https://open.spotify.com/track/1di1BEgJYzPvXUuinsYJGP"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Meat Loaf",
+            "name": "Bat Out of Hell",
+            "spotifyLink": "https://open.spotify.com/track/3mCeeoBvTTpg8Xy2Wuvirw"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Hanson",
+            "name": "MMMBop",
+            "spotifyLink": "https://open.spotify.com/track/0lnxrQAd9ZxbhBBe7d8FO8"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Miley Cyrus",
+            "name": "Party In The U.S.A.",
+            "spotifyLink": "https://open.spotify.com/track/3E7dfMvvCLUddWissuqMwr"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Mark Morrison",
+            "name": "Return of the Mack",
+            "spotifyLink": "https://open.spotify.com/track/3jDdpx9PMlfMBS5tOBHFm9"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Europe",
+            "name": "The Final Countdown",
+            "spotifyLink": "https://open.spotify.com/track/3MrRksHupTVEQ7YbA0FsZK"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Billy Ray Cyrus",
+            "name": "Achy Breaky Heart",
+            "spotifyLink": "https://open.spotify.com/track/1zi3f2VL4eSFHvm0WC506q"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Zac Brown Band",
+            "name": "Chicken Fried",
+            "spotifyLink": "https://open.spotify.com/track/3eBnEo9WL34ulBCZlLpUQO"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Papa Roach",
+            "name": "Last Resort",
+            "spotifyLink": "https://open.spotify.com/track/5W8YXBz9MTIDyrpYaCg2Ky"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Foundations",
+            "name": "Build Me Up Buttercup - Mono",
+            "spotifyLink": "https://open.spotify.com/track/6sPOmDulFtLzfX25zICNrC"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "ABBA",
+            "name": "Dancing Queen",
+            "spotifyLink": "https://open.spotify.com/track/0GjEhVFGZW8afUYGChu3Rr"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Limp Bizkit",
+            "name": "Break Stuff",
+            "spotifyLink": "https://open.spotify.com/track/5cZqsjVs6MevCnAkasbEOX"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Journey",
+            "name": "Don't Stop Believin'",
+            "spotifyLink": "https://open.spotify.com/track/4bHsxqR3GMrXTxEPLuK5ue"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Dizzee Rascal",
+            "name": "Bonkers",
+            "spotifyLink": "https://open.spotify.com/track/6ddQ5KCkvCggk3j6KdA0zL"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Chordettes",
+            "name": "Mr. Sandman",
+            "spotifyLink": "https://open.spotify.com/track/47O5lXcK78Z3TIiGzuc18l"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Laura Branigan",
+            "name": "Gloria",
+            "spotifyLink": "https://open.spotify.com/track/15ob9SMGLWrexuPuyuMjKl"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Avril Lavigne",
+            "name": "Hot",
+            "spotifyLink": "https://open.spotify.com/track/6z7fZRrQfOH3ZjWEkC4QhC"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Robyn",
+            "name": "Dancing On My Own",
+            "spotifyLink": "https://open.spotify.com/track/6aqNCrRA7vs7v6QvRpI50t"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Rick Astley",
+            "name": "Never Gonna Give You Up",
+            "spotifyLink": "https://open.spotify.com/track/4cOdK2wGLETKBW3PvgPWqT"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Wham!",
+            "name": "Wake Me Up Before You Go-Go",
+            "spotifyLink": "https://open.spotify.com/track/0ikz6tENMONtK6qGkOrU3c"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Seal",
+            "name": "Kiss from a Rose",
+            "spotifyLink": "https://open.spotify.com/track/3YKptz29AsOlm7WAVnztBh"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Bryan Adams",
+            "name": "(Everything I Do) I Do It For You",
+            "spotifyLink": "https://open.spotify.com/track/1Eb90nmqTrxylKFhcUzW8P"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "TOTO",
+            "name": "Africa",
+            "spotifyLink": "https://open.spotify.com/track/2374M0fQpWi3dLnB54qaLX"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Kenny Loggins",
+            "name": "Footloose",
+            "spotifyLink": "https://open.spotify.com/track/1Ppwc43WYFEBXw2n1ePhDY"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Babylon Zoo",
+            "name": "Spaceman",
+            "spotifyLink": "https://open.spotify.com/track/0uQcP7QVoLvaFsORsdrgNh"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Backstreet Boys",
+            "name": "I Want It That Way",
+            "spotifyLink": "https://open.spotify.com/track/47BBI51FKFwOMlIiX6m8ya"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "JB and The Moonshine Band",
+            "name": "More Like My Dog",
+            "spotifyLink": "https://open.spotify.com/track/3gxGBz3ymjuVzTO6AMbGhT"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "I Love Rock N Roll",
+      "id": "607226726c5a98003664c200",
+      "description": "100‰ pure rock bangers. Let's see if we can redeem ourselves from the last round. 2021-04-26T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "Muse",
+            "name": "Citizen Erased",
+            "spotifyLink": "https://open.spotify.com/track/177MZraDAxjRqqtZBz5Vhn"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "AC/DC",
+            "name": "Back In Black",
+            "spotifyLink": "https://open.spotify.com/track/08mG3Y1vljYA6bvDt4Wqkj"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "AC/DC",
+            "name": "It's a Long Way to the Top (If You Wanna Rock 'N' Roll)",
+            "spotifyLink": "https://open.spotify.com/track/7nemcVsXVFZF01iqpIIo2Y"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Pearl Jam",
+            "name": "Even Flow",
+            "spotifyLink": "https://open.spotify.com/track/6QewNVIDKdSl8Y3ycuHIei"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "Hammer To Fall - Remastered 2011",
+            "spotifyLink": "https://open.spotify.com/track/4zguEJ2UaLe4zbEIDWqiVP"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Led Zeppelin",
+            "name": "Immigrant Song - Remaster",
+            "spotifyLink": "https://open.spotify.com/track/78lgmZwycJ3nzsdgmPPGNx"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queens of the Stone Age",
+            "name": "Go With The Flow",
+            "spotifyLink": "https://open.spotify.com/track/0wzRcekWyVCSyPtlPOeJau"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Deftones",
+            "name": "Passenger",
+            "spotifyLink": "https://open.spotify.com/track/7IoK6jZBxY7NMoQPoPXZCF"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Fleetwood Mac",
+            "name": "The Chain - 2004 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/5e9TFTbltYBg2xThimr0rU"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Derek & The Dominos",
+            "name": "Layla",
+            "spotifyLink": "https://open.spotify.com/track/2kkvB3RNRzwjFdGhaUA0tz"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Guns N' Roses",
+            "name": "Sweet Child O' Mine",
+            "spotifyLink": "https://open.spotify.com/track/7o2CTH4ctstm8TNelqjb51"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "We Will Rock You - Remastered",
+            "spotifyLink": "https://open.spotify.com/track/4pbJqGIASGPr0ZpGpnWkDn"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Audioslave",
+            "name": "Cochise",
+            "spotifyLink": "https://open.spotify.com/track/1TDk2Jmi4dVZhm2dum3Jim"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Reuben",
+            "name": "Freddy Kreuger",
+            "spotifyLink": "https://open.spotify.com/track/6yheqxgSKIkSm4guRLp5Y5"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jane's Addiction",
+            "name": "Just Because",
+            "spotifyLink": "https://open.spotify.com/track/3k6L0H08zSY5yRDgqI8fqx"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Fleetwood Mac",
+            "name": "Go Your Own Way - 2004 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/07GvNcU1WdyZJq3XxP0kZa"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Nirvana",
+            "name": "In Bloom - Nevermind Version",
+            "spotifyLink": "https://open.spotify.com/track/0eeEzvw5Etwv6tyz2PyE6L"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Foo Fighters",
+            "name": "Monkey Wrench",
+            "spotifyLink": "https://open.spotify.com/track/44wXefe8WB9Fd6xwtmAwbR"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Lynyrd Skynyrd",
+            "name": "Free Bird - Extended Music Version",
+            "spotifyLink": "https://open.spotify.com/track/3B7fVNn9gquWqOeZiv8n1V"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Arctic Monkeys",
+            "name": "I Bet You Look Good On The Dancefloor",
+            "spotifyLink": "https://open.spotify.com/track/3DQVgcqaP3iSMbaKsd57l5"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Strokes",
+            "name": "Last Nite",
+            "spotifyLink": "https://open.spotify.com/track/7kzKAuUzOITUauHAhoMoxA"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Queens of the Stone Age",
+            "name": "No One Knows",
+            "spotifyLink": "https://open.spotify.com/track/6NvRxjfYkkT2SpirAlmsjH"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Led Zeppelin",
+            "name": "Ramble On - Remaster",
+            "spotifyLink": "https://open.spotify.com/track/3Qjm0halGOZZGIS1tNaXlI"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Muse",
+            "name": "New Born",
+            "spotifyLink": "https://open.spotify.com/track/7ek3wBbpv4dki41KgOHqML"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "The Record Company",
+            "name": "So What’cha Want",
+            "spotifyLink": "https://open.spotify.com/track/4N3uyBW6gxMcnWPY8YMctM"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Wolfmother",
+            "name": "Woman",
+            "spotifyLink": "https://open.spotify.com/track/3CkjLJYnnyOtGk4Jx4iYS4"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "System Of A Down",
+            "name": "Chop Suey!",
+            "spotifyLink": "https://open.spotify.com/track/2DlHlPMa4M17kufBvI2lEN"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jet",
+            "name": "Are You Gonna Be My Girl",
+            "spotifyLink": "https://open.spotify.com/track/305WCRhhS10XUcH6AEwZk6"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Beastie Boys",
+            "name": "Sabotage",
+            "spotifyLink": "https://open.spotify.com/track/0Puj4YlTm6xNzDDADXHMI9"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Metallica",
+            "name": "For Whom The Bell Tolls - Remastered",
+            "spotifyLink": "https://open.spotify.com/track/2dXsILW8gzkosqleHAvl0v"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Simply The Best",
+      "id": "607226726c5a98003664c201",
+      "description": "Final round. Whether it's your favourite songs ever or you think you can gain points from what you've learned about everyone's music tastes, it's up to you.2021-04-29T20:00:00Z",
+      "trackResults": [
+        {
+          "track": {
+            "artist": "AC/DC",
+            "name": "Thunderstruck",
+            "spotifyLink": "https://open.spotify.com/track/57bgtoPSgt236HzfBOd8kj"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 4
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Tenacious D",
+            "name": "Tribute",
+            "spotifyLink": "https://open.spotify.com/track/6crBy2sODw2HS53xquM6us"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Wild Cherry",
+            "name": "Play That Funky Music",
+            "spotifyLink": "https://open.spotify.com/track/5uuJruktM9fMdN9Va0DUMl"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Green Day",
+            "name": "Basket Case",
+            "spotifyLink": "https://open.spotify.com/track/6L89mwZXSOwYl76YXfX13s"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jamiroquai",
+            "name": "Virtual Insanity - Remastered",
+            "spotifyLink": "https://open.spotify.com/track/47W6YR93MPCGLEUReLMyDm"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Stevie Wonder",
+            "name": "Superstition",
+            "spotifyLink": "https://open.spotify.com/track/4N0TP4Rmj6QQezWV88ARNJ"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "ZZ Top",
+            "name": "Sharp Dressed Man - 2008 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/1UBQ5GK8JaQjm5VbkBZY66"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Creedence Clearwater Revival",
+            "name": "Bad Moon Rising",
+            "spotifyLink": "https://open.spotify.com/track/6NxsCnLeLd8Ai1TrgGxzIx"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jimi Hendrix",
+            "name": "Voodoo Child (Slight Return)",
+            "spotifyLink": "https://open.spotify.com/track/2AxCeJ6PSsBYiTckM0HLY7"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Radiohead",
+            "name": "There, There",
+            "spotifyLink": "https://open.spotify.com/track/5h4y42RUKwYKYWgutNwvKP"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Offspring",
+            "name": "She's Got Issues",
+            "spotifyLink": "https://open.spotify.com/track/2uUqUZtmUHMymhrW9c4gl9"
+          },
+          "submittedBy": {
+            "username": "Macky"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Blues Traveler",
+            "name": "Brother John",
+            "spotifyLink": "https://open.spotify.com/track/2uPgHqTZotNvcMVWuwkf5s"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Pigeons Playing Ping Pong",
+            "name": "F.U.",
+            "spotifyLink": "https://open.spotify.com/track/6fMXV0atg5MKoWYf8THNxE"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Kool & The Gang",
+            "name": "Jungle Boogie",
+            "spotifyLink": "https://open.spotify.com/track/3K0SJUQNbOkUprTFcwwAKN"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Less Than Jake",
+            "name": "All My Best Friends Are Metalheads",
+            "spotifyLink": "https://open.spotify.com/track/1hh4GY1zM7SUAyM3a2ziH5"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Cat Empire",
+            "name": "Sol Y Sombra",
+            "spotifyLink": "https://open.spotify.com/track/2cYSg8VXOrJoXbN7r2VA3I"
+          },
+          "submittedBy": {
+            "username": "Vivo.Tommy"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -2
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Gipsy Kings",
+            "name": "Volare (Nel Blu di Pinto di Blu)",
+            "spotifyLink": "https://open.spotify.com/track/4OjJAGDDZTLlTNeOMBl7UM"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Sly & The Family Stone",
+            "name": "Dance to the Music",
+            "spotifyLink": "https://open.spotify.com/track/1MQWtVcs0PKsY4PA6ZvLiy"
+          },
+          "submittedBy": {
+            "username": "alfredsb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Muse",
+            "name": "Dead Star",
+            "spotifyLink": "https://open.spotify.com/track/2sP2TwYA3zewyBDrZsGahr"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Eric Clapton",
+            "name": "Change the World - Live at Staples Center, Los Angeles, CA, 8/18 - 19/2001",
+            "spotifyLink": "https://open.spotify.com/track/1pyGzIcVMlrn1SCr0DfuuS"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Vlado Kreslin",
+            "name": "Z Gorickega V Piran",
+            "spotifyLink": "https://open.spotify.com/track/6rdV0O1Qd5NwMMSY0kdxAB"
+          },
+          "submittedBy": {
+            "username": "Chris McLeod"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Strokes",
+            "name": "Reptilia",
+            "spotifyLink": "https://open.spotify.com/track/57Xjny5yNzAcsxnusKmAfA"
+          },
+          "submittedBy": {
+            "username": "James Webb"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Earth, Wind & Fire",
+            "name": "Boogie Wonderland",
+            "spotifyLink": "https://open.spotify.com/track/6ztstiyZL6FXzh4aG46ZPD"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "T. Rex",
+            "name": "Get It On",
+            "spotifyLink": "https://open.spotify.com/track/4YUzw8WPyRqNLdt22MFTbC"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Doobie Brothers",
+            "name": "Long Train Runnin'",
+            "spotifyLink": "https://open.spotify.com/track/4nXkbcTj3nyww1cHkw5RAP"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": []
+        },
+        {
+          "track": {
+            "artist": "Led Zeppelin",
+            "name": "Stairway to Heaven - Remaster",
+            "spotifyLink": "https://open.spotify.com/track/5CQ30WqJwcep0pYcV4AMNc"
+          },
+          "submittedBy": {
+            "username": "charley214"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -3
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Jimmy Eat World",
+            "name": "Sweetness",
+            "spotifyLink": "https://open.spotify.com/track/5TxTuzvDxEd7qpXuSXHROV"
+          },
+          "submittedBy": {
+            "username": "Harri Williams"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": 1
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Rolling Stones",
+            "name": "Rocks Off",
+            "spotifyLink": "https://open.spotify.com/track/42o3gy9e8dzBHvQE991ad8"
+          },
+          "submittedBy": {
+            "username": "dannybassmpl"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "murphs87"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "The Smiths",
+            "name": "Bigmouth Strikes Again - 2011 Remaster",
+            "spotifyLink": "https://open.spotify.com/track/2OErSh4oVVAUll0vHxdr6p"
+          },
+          "submittedBy": {
+            "username": "Niall"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Harri Williams"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Chris McLeod"
+              },
+              "points": -6
+            }
+          ]
+        },
+        {
+          "track": {
+            "artist": "Queen",
+            "name": "Bohemian Rhapsody",
+            "spotifyLink": "https://open.spotify.com/track/1yslmgUcM2AOkOPS4sl3QV"
+          },
+          "submittedBy": {
+            "username": "murphs87"
+          },
+          "votes": [
+            {
+              "user": {
+                "username": "Vivo.Tommy"
+              },
+              "points": 2
+            },
+            {
+              "user": {
+                "username": "Macky"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "charley214"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "Niall"
+              },
+              "points": -1
+            },
+            {
+              "user": {
+                "username": "James Webb"
+              },
+              "points": -2
+            },
+            {
+              "user": {
+                "username": "dannybassmpl"
+              },
+              "points": -3
+            },
+            {
+              "user": {
+                "username": "alfredsb"
+              },
+              "points": -6
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
