@@ -20,38 +20,7 @@ function flatten<T>(array: T[][]): T[] {
  * - Different wavelength (fewest votes on each-others stuff)
  */
 export function analyzeLeague(league: ILeague) {
-    const voteHistories: { [submitter: string]: { [voter: string]: IVoteHistory } } = {};
-    league.rounds.forEach(round => {
-        round.trackResults.forEach(trackResult => {
-            const submitter = trackResult.submittedBy.username;
-            if (voteHistories[submitter] === undefined) {
-                voteHistories[submitter] = {};
-            }
-            const voterHistory = voteHistories[submitter];
-
-            trackResult.votes.forEach(vote => {
-                const voter = vote.user.username;
-                if (voterHistory[voter] === undefined) {
-                    voterHistory[voter] = {
-                        submitter,
-                        voter,
-                        totalDownVotes: 0,
-                        totalNegativePoints: 0,
-                        totalPoints: 0,
-                        totalVotes: 0
-                    };
-                }
-                const pairHistory = voterHistory[voter];
-
-                pairHistory.totalVotes++;
-                pairHistory.totalPoints += vote.points;
-                if (vote.points < 0) {
-                    pairHistory.totalDownVotes++;
-                    pairHistory.totalNegativePoints += vote.points;
-                }
-            });
-        });
-    });
+    const voteHistories = getVoteHistories(league);
 
     const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh)));
     console.info("Global results");
@@ -101,7 +70,13 @@ interface IVoteHistory {
     totalNegativePoints: number;
 }
 
-function generatePairwiseHistories(voteHistories: { [submitter: string]: { [voter: string]: IVoteHistory } }): IVoteHistory[] {
+interface IVoteHistories {
+    [submitter: string]: {
+        [voter: string]: IVoteHistory;
+    }
+}
+
+function generatePairwiseHistories(voteHistories: IVoteHistories): IVoteHistory[] {
     const pairwiseHistories: IVoteHistory[] = [];
 
     const doneSubmitters = new Set<string>();
@@ -127,4 +102,41 @@ function generatePairwiseHistories(voteHistories: { [submitter: string]: { [vote
     }
 
     return pairwiseHistories;
+}
+
+function getVoteHistories(league: ILeague): IVoteHistories {
+    const voteHistories: { [submitter: string]: { [voter: string]: IVoteHistory } } = {};
+    league.rounds.forEach(round => {
+        round.trackResults.forEach(trackResult => {
+            const submitter = trackResult.submittedBy.username;
+            if (voteHistories[submitter] === undefined) {
+                voteHistories[submitter] = {};
+            }
+            const voterHistory = voteHistories[submitter];
+
+            trackResult.votes.forEach(vote => {
+                const voter = vote.user.username;
+                if (voterHistory[voter] === undefined) {
+                    voterHistory[voter] = {
+                        submitter,
+                        voter,
+                        totalDownVotes: 0,
+                        totalNegativePoints: 0,
+                        totalPoints: 0,
+                        totalVotes: 0
+                    };
+                }
+                const pairHistory = voterHistory[voter];
+
+                pairHistory.totalVotes++;
+                pairHistory.totalPoints += vote.points;
+                if (vote.points < 0) {
+                    pairHistory.totalDownVotes++;
+                    pairHistory.totalNegativePoints += vote.points;
+                }
+            });
+        });
+    });
+
+    return voteHistories;
 }
