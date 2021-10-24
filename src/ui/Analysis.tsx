@@ -7,7 +7,7 @@ import {
     IGlobalAnalysis,
     IUserAnalysis,
     IVoteHistory,
-    IVoterAlignment
+    IVoterAlignment, IWithUser
 } from "../analyze";
 import * as leagues from "../leagues.json";
 import {LeagueSelector} from "./LeagueSelector";
@@ -46,6 +46,10 @@ const GlobalAnalysis: React.FC<IGlobalAnalysis> = (analysis) => {
     return (
         <div className="analysis">
             <div className="analysis-title">All Users</div>
+            <TotalPointsReceived {...analysis} showUser={true} />
+            <AveragePointsPerTrack {...analysis} showUser={true} />
+            <BestRound {...analysis.bestRound} showUser={true} />
+            <BestTrack {...analysis.bestTrack} showUser={true} />
             <MostPointsGiven {...analysis.mostPointsGivenTo} />
             <FewestPointsGiven {...analysis.fewestPointsGivenTo} />
             <BestPartnership {...analysis.mostPointsForEachOther} />
@@ -86,20 +90,36 @@ const User: React.FC<{ user: string }> = ({user}) => {
 
 const AnalysisLine: React.FC = ({children}) => <div className="analysis-line">{children}</div>;
 
-const TotalPointsReceived: React.FC<IUserAnalysis> = ({totalPointsReceived}) =>
-    <AnalysisLine>Total points received: {totalPointsReceived}</AnalysisLine>
+const TotalPointsReceived: React.FC<IGlobalAnalysis & {showUser?: boolean}> = ({totalPointsReceived, showUser}) => {
+    const maybeUser = showUser ? <span><User user={totalPointsReceived.user}/> scored </span> : "";
+    return <AnalysisLine>Total points received: {maybeUser}{totalPointsReceived.value}</AnalysisLine>
+}
 
 const TotalRoundsPlayed: React.FC<IUserAnalysis> = ({totalRoundsPlayed}) =>
     <AnalysisLine>Total rounds played: {totalRoundsPlayed}</AnalysisLine>
 
-const AveragePointsPerTrack: React.FC<IUserAnalysis> = ({averagePointsPerTrack}) =>
-    <AnalysisLine>Average points per track: {averagePointsPerTrack.toFixed(2)}</AnalysisLine>
+const AveragePointsPerTrack: React.FC<IGlobalAnalysis & {showUser?: boolean}> = ({averagePointsPerTrack, showUser}) => {
+    const maybeUser = showUser ? <span><User user={averagePointsPerTrack.user}/> scored </span> : "";
+    return (
+        <AnalysisLine>
+            Average points per track: {maybeUser} {averagePointsPerTrack.value.toFixed(2)}
+        </AnalysisLine>
+    );
+}
 
-const BestRound: React.FC<IBestRound> = ({round, points}) =>
-    <AnalysisLine>Best round: {points} points in <User user={round.title}/></AnalysisLine>
+const BestRound: React.FC<IWithUser<IBestRound> & {showUser?: boolean}> = ({user, value: { round, points}, showUser}) => {
+    const maybeUser = showUser ? <span><User user={user}/> scored </span> : "";
+    return <AnalysisLine>Best round: {maybeUser}{points} points in <User user={round.title}/></AnalysisLine>
+}
 
-const BestTrack: React.FC<IBestTrack> = ({track, points}) =>
-    <AnalysisLine>Best track: {points} points for <a href={track.track.spotifyLink}>{track.track.name}</a></AnalysisLine>
+const BestTrack: React.FC<IWithUser<IBestTrack> & {showUser?: boolean}> = ({user, value: {track, points}, showUser}) => {
+    const maybeUser = showUser ? <span><User user={user}/> scored </span> : "";
+    return (
+        <AnalysisLine>Best track: {maybeUser}{points} points for{" "}
+            <a href={track.track.spotifyLink}>{track.track.name}</a>
+        </AnalysisLine>
+    );
+}
 
 const MostPointsGiven: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (

@@ -1,5 +1,20 @@
 import {IRound, ITrackResult} from "./types";
-import {flatten} from "./utils";
+import {flatten, maxBy} from "./utils";
+
+export interface IBestRound {
+    round: IRound;
+    points: number;
+}
+
+export interface IBestTrack {
+    track: ITrackResult;
+    points: number;
+}
+
+export interface IWithUser<T> {
+    value: T;
+    user: string;
+}
 
 export interface IGlobalAnalysis {
     mostPointsGivenTo: IVoteHistory;
@@ -11,6 +26,10 @@ export interface IGlobalAnalysis {
     // asymmetricalPointsAgainst: IVoteHistory;
     sameWavelength: IVoterAlignment;
     differentWavelength: IVoterAlignment;
+    totalPointsReceived: IWithUser<number>;
+    averagePointsPerTrack: IWithUser<number>;
+    bestTrack: IWithUser<IBestTrack>;
+    bestRound: IWithUser<IBestRound>;
 }
 
 export interface IUserAnalysis extends IGlobalAnalysis {
@@ -18,10 +37,6 @@ export interface IUserAnalysis extends IGlobalAnalysis {
     mostPointsGivenByThisUser: IVoteHistory;
     fewestPointsGivenByThisUser: IVoteHistory;
     totalRoundsPlayed: number;
-    totalPointsReceived: number;
-    averagePointsPerTrack: number;
-    bestTrack: IBestTrack;
-    bestRound: IBestRound;
 }
 
 export interface IAnalysis {
@@ -51,8 +66,9 @@ export function analyzeLeague(rounds: IRound[]): IAnalysis {
     const pairwise = generatePairwiseHistories(voteHistories);
     const alignments = getVoterAlignment(rounds);
 
-    const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh.voteHistory)));
-    const global = analyzeHistories(allVoteHistories, pairwise, alignments);
+    const allSubmitterDatas = Object.values(voteHistories);
+    const allVoteHistories = flatten(allSubmitterDatas.map(vh => Object.values(vh.voteHistory)));
+    const global = analyzeHistories(allVoteHistories, pairwise, alignments, allSubmitterDatas);
     const user: IAnalysis["user"] = {};
     for (const userName in voteHistories) {
         const submitterData = voteHistories[userName];
@@ -79,19 +95,20 @@ export function analyzeLeague(rounds: IRound[]): IAnalysis {
             user: userName,
             mostPointsGivenByThisUser: mostPointsGivenByThisUser!,
             fewestPointsGivenByThisUser: fewestPointsGivenByThisUser!,
-            ...analyzeHistories(userHistories, userPairwise, userAlignments),
-            bestTrack: submitterData.bestTrack,
-            bestRound: submitterData.bestRound,
-            totalPointsReceived: submitterData.totalPoints,
+            ...analyzeHistories(userHistories, userPairwise, userAlignments, [submitterData]),
             totalRoundsPlayed: submitterData.totalRounds,
-            averagePointsPerTrack: submitterData.totalPoints / submitterData.totalTracks,
         }
     }
 
     return { global, user };
 }
 
-function analyzeHistories(voteHistories: IVoteHistory[], pairwiseHistories: IVoteHistory[], alignments: IVoterAlignment[]): IGlobalAnalysis {
+function analyzeHistories(
+    voteHistories: IVoteHistory[],
+    pairwiseHistories: IVoteHistory[],
+    alignments: IVoterAlignment[],
+    submitterDatas: ISubmitterData[],
+): IGlobalAnalysis {
     voteHistories.sort((a, b) => a.totalPoints - b.totalPoints);
     const mostPointsGivenTo = voteHistories[voteHistories.length - 1];
     const fewestPointsGivenTo = voteHistories[0];
@@ -107,6 +124,11 @@ function analyzeHistories(voteHistories: IVoteHistory[], pairwiseHistories: IVot
     const differentWavelength = alignments[0];
     const sameWavelength = alignments[alignments.length - 1];
 
+    const bestTrack = maxBy(submitterDatas, data => data.bestTrack.points);
+    const bestRound = maxBy(submitterDatas, data => data.bestRound.points);
+    const totalPointsReceived = maxBy(submitterDatas, data => data.totalPoints);
+    const avgPointsPerTrack = maxBy(submitterDatas, data => data.totalPoints / data.totalTracks)
+
     return {
         mostPointsGivenTo,
         fewestPointsGivenTo,
@@ -115,6 +137,22 @@ function analyzeHistories(voteHistories: IVoteHistory[], pairwiseHistories: IVot
         fewestVotesForEachOther,
         differentWavelength,
         sameWavelength,
+        bestTrack: {
+           value: bestTrack.bestTrack,
+           user: bestTrack.user,
+        },
+        bestRound: {
+            value: bestRound.bestRound,
+            user: bestRound.user,
+        },
+        totalPointsReceived: {
+            value: totalPointsReceived.totalPoints,
+            user: totalPointsReceived.user
+        },
+        averagePointsPerTrack: {
+            value: avgPointsPerTrack.totalPoints / avgPointsPerTrack.totalTracks,
+            user: avgPointsPerTrack.user
+        }
     }
 }
 
@@ -131,18 +169,9 @@ interface IVoteHistories {
     [submitter: string]: ISubmitterData;
 }
 
-export interface IBestRound {
-    round: IRound;
-    points: number;
-}
-
-export interface IBestTrack {
-    track: ITrackResult;
-    points: number;
-}
-
 interface ISubmitterData {
     voteHistory: { [voter: string]: IVoteHistory };
+    user: string;
     totalRounds: number;
     totalTracks: number;
     totalPoints: number;
@@ -197,7 +226,13 @@ function getVoteHistories(rounds: IRound[]): IVoteHistories {
         round.trackResults.forEach(trackResult => {
             const submitter = trackResult.submittedBy.username;
             if (voteHistories[submitter] === undefined) {
-                voteHistories[submitter] = { voteHistory: {}, totalRounds: 0, totalTracks: 0, totalPoints: 0 } as any;
+                voteHistories[submitter] = {
+                    voteHistory: {},
+                    totalRounds: 0,
+                    totalTracks: 0,
+                    totalPoints: 0,
+                    user: submitter,
+                } as any;
             }
             const submitterData = voteHistories[submitter]
 
