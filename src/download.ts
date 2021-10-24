@@ -6,7 +6,7 @@ import * as fs from "fs";
 const cookie = "session=.eJw9kMmOozAARP_F5yCxGey-wdAhZKEbZx0uCIwJhIDBrEmr_304za2kKj1V1Q-IGiaquGZ1Dz56MbAViCllXRf1vGQ1-AB2YM-XcMis77EcLRrNTU_P5-uh_jSDrbe2d2FH4AMfjKzoVAEFotfGbp3zi1SZn3vEM-WdZJ_Sxq_a2pE2ptRp3wQ7rH2OQ4CycB_of-9rf2241q1LtIBP_SuI56O3h9iQtmpFvoqXKqv8ma3vb4UncTKY9gxWgA5CLMWjoWNiaaooCpRl3cSquZhsbgrBuihehimGBmWEVN1cgSJdohhTDUGkSYasGJIOMZVijZmSuYzHOoPpIhaGYNmCyP9_YQWWULRJIn4uxvhRhY9Tm0fT6eUf3EJ-tps7matjiHgxvSfquWLXtASW9LrpbX_SuwARP-O4mEbECN8-8kPm3K7c4gkrrFScL_vKSS7He5nhPze3Vbx5PulpyyLmzmW9o0-CwO8_G4uPZQ.YXVqhg.EBEA9VcFdkCVZVRjNcqD6IKZ19M";
 
 const leagueIds = [
-    // "f85aed70522a418091741a64c7e18d2c", // I beleague in a thing called love
+    "f85aed70522a418091741a64c7e18d2c", // I beleague in a thing called love
     "60a135402d18dc0022c27d4a", // Don't stop beleaguing
     "607226726c5a98003664c1f8", // I'm a beleaguer
 ]
