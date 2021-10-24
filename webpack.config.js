@@ -2,6 +2,8 @@ const webpack = require("webpack");
 const path = require("path");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 const IS_PRODUCTION = process.env.NODE_ENV === "production";
+// const HtmlWebpackPlugin = require('html-webpack-plugin');
+// const HtmlWebpackInlineSourcePlugin = require('html-webpack-inline-source-plugin');
 
 // Module loaders for .less files, used in reverse order (compile Less, apply PostCSS, interpret CSS as modules)
 const lessLoaders = [
@@ -81,6 +83,8 @@ const config = {
         new UglifyJsPlugin({
             parallel: true,
         }),
+        // new HtmlWebpackPlugin({ inlineSource: '.(js|css)$' }),
+        // new HtmlWebpackInlineSourcePlugin()
     ] : [],
 };
 
