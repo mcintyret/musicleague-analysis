@@ -1,9 +1,10 @@
 const webpack = require("webpack");
 const path = require("path");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
-const IS_PRODUCTION = process.env.NODE_ENV === "production";
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin');
+
+const IS_PRODUCTION = process.env.NODE_ENV === "production";
 
 // Module loaders for .less files, used in reverse order (compile Less, apply PostCSS, interpret CSS as modules)
 const lessLoaders = [
@@ -36,10 +37,7 @@ const config = {
             {
                 test: /\.tsx?$/,
                 use: {
-                    loader: require.resolve("awesome-typescript-loader"),
-                    options: {
-                        configFileName: "./tsconfig.json",
-                    },
+                    loader: require.resolve("ts-loader"),
                 },
             },
             {
