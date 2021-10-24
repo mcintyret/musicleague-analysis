@@ -1,10 +1,5 @@
-import {IRound} from "./types";
-
-function flatten<T>(array: T[][]): T[] {
-    const result: T[] = [];
-    array.forEach(a => result.push(...a));
-    return result;
-}
+import {IRound, ITrackResult} from "./types";
+import {flatten} from "./utils";
 
 export interface IGlobalAnalysis {
     mostPointsGivenTo: IVoteHistory;
@@ -22,6 +17,11 @@ export interface IUserAnalysis extends IGlobalAnalysis {
     user: string;
     mostPointsGivenByThisUser: IVoteHistory;
     fewestPointsGivenByThisUser: IVoteHistory;
+    totalRoundsPlayed: number;
+    totalPointsReceived: number;
+    averagePointsPerTrack: number;
+    bestTrack: IBestTrack;
+    bestRound: IBestRound;
 }
 
 export interface IAnalysis {
@@ -46,64 +46,17 @@ export interface IAnalysis {
  * - Worst enemies (fewest points from A to B)
  * - Different wavelength (fewest votes on each-others stuff)
  */
-export function analyzeLeague(rounds: IRound[]) {
-    const voteHistories = getVoteHistories(rounds);
-
-    const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh)));
-    console.info("Global results");
-    allVoteHistories.sort((a, b) => a.totalPoints - b.totalPoints);
-    const bestVh = allVoteHistories[allVoteHistories.length - 1];
-    console.info(`Best friend: ${bestVh.voter} gave ${bestVh.submitter} ${bestVh.totalPoints} points.`);
-    const worstVh = allVoteHistories[0];
-    console.info(`Worst enemy: ${worstVh.voter} gave ${worstVh.submitter} ${worstVh.totalPoints} points.`);
-    allVoteHistories.sort((a, b) => a.totalVotes - b.totalVotes);
-    const leastInterestedVh = allVoteHistories[0];
-    console.info(`Least interested: ${leastInterestedVh.voter} only voted on ${leastInterestedVh.totalVotes} of ${leastInterestedVh.submitter}'s tracks`);
-    console.info();
-
-    const pairwise = generatePairwiseHistories(voteHistories);
-    pairwise.sort((a, b) => a.totalPoints - b.totalPoints);
-    const bestPairwiseVh = pairwise[pairwise.length - 1];
-    console.info(`Best team: ${bestPairwiseVh.voter} and ${bestPairwiseVh.submitter} gave each other ${bestPairwiseVh.totalPoints} points in total.`);
-    const worstPairwiseVh = pairwise[0];
-    console.info(`Worst team: ${worstPairwiseVh.voter} and ${worstPairwiseVh.submitter} only gave each other ${worstPairwiseVh.totalPoints} points in total.`);
-    pairwise.sort((a, b) => a.totalVotes - b.totalVotes);
-    const leastInterestedPairwiseVh = pairwise[0];
-    console.info(`Mutually disinterested: ${leastInterestedPairwiseVh.voter} and ${leastInterestedPairwiseVh.submitter} only voted for each other ${leastInterestedPairwiseVh.totalVotes} times.`);
-    console.info();
-
-    for (const submitter in voteHistories) {
-        const submitterVoteHistories = Object.values(voteHistories[submitter]);
-        console.info(submitter);
-        submitterVoteHistories.sort((a, b) => a.totalPoints - b.totalPoints);
-        const bestFriend = submitterVoteHistories[submitterVoteHistories.length - 1];
-        console.info(`Best friend: ${bestFriend.voter} (${bestFriend.totalPoints} points)`);
-        const worstEnemy = submitterVoteHistories[0];
-        console.info(`Worst enemy: ${worstEnemy.voter} (${worstEnemy.totalPoints} points)`);
-
-        submitterVoteHistories.sort((a, b) => a.totalVotes - b.totalVotes);
-        const leastInterested = submitterVoteHistories[0];
-        console.info(`Least interested: ${leastInterested.voter} (${leastInterested.totalVotes} votes)`);
-        console.info();
-    }
-
-    const alignments = getVoterAlignment(rounds);
-    const leastAligned = alignments[0];
-    console.info(`Least aligned: ${leastAligned.userOne} and ${leastAligned.userTwo} gave ${leastAligned.points} points to the same track`);
-    const mostAligned = alignments[alignments.length - 1];
-    console.info(`Most aligned: ${mostAligned.userOne} and ${mostAligned.userTwo} gave ${mostAligned.points} points to the same track`);
-}
-
-export function analyzeLeagueV2(rounds: IRound[]): IAnalysis {
+export function analyzeLeague(rounds: IRound[]): IAnalysis {
     const voteHistories = getVoteHistories(rounds);
     const pairwise = generatePairwiseHistories(voteHistories);
     const alignments = getVoterAlignment(rounds);
 
-    const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh)));
+    const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh.voteHistory)));
     const global = analyzeHistories(allVoteHistories, pairwise, alignments);
     const user: IAnalysis["user"] = {};
     for (const userName in voteHistories) {
-        const userHistories = Object.values(voteHistories[userName]);
+        const submitterData = voteHistories[userName];
+        const userHistories = Object.values(submitterData.voteHistory);
         const userPairwise = pairwise.filter(p => p.voter === userName || p.submitter === userName);
         const userAlignments = alignments.filter(p => p.userOne === userName || p.userTwo === userName);
 
@@ -113,7 +66,7 @@ export function analyzeLeagueV2(rounds: IRound[]): IAnalysis {
             if (otherUser === userName) {
                 continue;
             }
-            const history = voteHistories[otherUser][userName];
+            const history = voteHistories[otherUser].voteHistory[userName];
             if (mostPointsGivenByThisUser == null || mostPointsGivenByThisUser.totalPoints < history.totalPoints) {
                 mostPointsGivenByThisUser = history;
             }
@@ -126,8 +79,12 @@ export function analyzeLeagueV2(rounds: IRound[]): IAnalysis {
             user: userName,
             mostPointsGivenByThisUser: mostPointsGivenByThisUser!,
             fewestPointsGivenByThisUser: fewestPointsGivenByThisUser!,
-            ...analyzeHistories(userHistories, userPairwise, userAlignments)
-
+            ...analyzeHistories(userHistories, userPairwise, userAlignments),
+            bestTrack: submitterData.bestTrack,
+            bestRound: submitterData.bestRound,
+            totalPointsReceived: submitterData.totalPoints,
+            totalRoundsPlayed: submitterData.totalRounds,
+            averagePointsPerTrack: submitterData.totalPoints / submitterData.totalTracks,
         }
     }
 
@@ -171,9 +128,26 @@ export interface IVoteHistory {
 }
 
 interface IVoteHistories {
-    [submitter: string]: {
-        [voter: string]: IVoteHistory;
-    }
+    [submitter: string]: ISubmitterData;
+}
+
+export interface IBestRound {
+    round: IRound;
+    points: number;
+}
+
+export interface IBestTrack {
+    track: ITrackResult;
+    points: number;
+}
+
+interface ISubmitterData {
+    voteHistory: { [voter: string]: IVoteHistory };
+    totalRounds: number;
+    totalTracks: number;
+    totalPoints: number;
+    bestRound: IBestRound;
+    bestTrack: IBestTrack;
 }
 
 function generatePairwiseHistories(voteHistories: IVoteHistories): IVoteHistory[] {
@@ -181,13 +155,13 @@ function generatePairwiseHistories(voteHistories: IVoteHistories): IVoteHistory[
 
     const doneSubmitters = new Set<string>();
     for (const submitter in voteHistories) {
-        const submitterVoteHistories = Object.values(voteHistories[submitter]);
+        const submitterVoteHistories = Object.values(voteHistories[submitter].voteHistory);
         submitterVoteHistories.forEach(voteHistory => {
             const voter = voteHistory.voter;
             if (doneSubmitters.has(voter)) {
                 return;
             }
-            const otherHistory = voteHistories[voter][submitter];
+            const otherHistory = voteHistories[voter].voteHistory[submitter];
 
             pairwiseHistories.push({
                 voter,
@@ -216,14 +190,30 @@ function emptyVoteHistory(submitter: string, voter: string) {
 }
 
 function getVoteHistories(rounds: IRound[]): IVoteHistories {
-    const voteHistories: { [submitter: string]: { [voter: string]: IVoteHistory } } = {};
+    const voteHistories: { [submitter: string]: ISubmitterData } = {};
     rounds.forEach(round => {
+        const submittersSeenThisRound = new Set<string>();
+        const tracksPerUserThisRound = new Map<string, ITrackResult[]>();
         round.trackResults.forEach(trackResult => {
             const submitter = trackResult.submittedBy.username;
             if (voteHistories[submitter] === undefined) {
-                voteHistories[submitter] = {};
+                voteHistories[submitter] = { voteHistory: {}, totalRounds: 0, totalTracks: 0, totalPoints: 0 } as any;
             }
-            const voterHistory = voteHistories[submitter];
+            const submitterData = voteHistories[submitter]
+
+            submitterData.totalTracks++;
+            if (!submittersSeenThisRound.has(submitter)) {
+                submitterData.totalRounds++;
+                submittersSeenThisRound.add(submitter);
+            }
+
+            if (tracksPerUserThisRound.get(submitter) === undefined) {
+                tracksPerUserThisRound.set(submitter, []);
+            }
+            const thisUserTracksThisRound = tracksPerUserThisRound.get(submitter)!;
+            thisUserTracksThisRound.push(trackResult);
+
+            const voterHistory = submitterData.voteHistory;
 
             trackResult.votes.forEach(vote => {
                 const voter = vote.user.username;
@@ -238,8 +228,32 @@ function getVoteHistories(rounds: IRound[]): IVoteHistories {
                     pairHistory.totalDownVotes++;
                     pairHistory.totalNegativePoints += vote.points;
                 }
+                submitterData.totalPoints += vote.points;
             });
+
+            const trackPoints = totalTrackPoints(trackResult);
+            if (submitterData.bestTrack == null || trackPoints > submitterData.bestTrack.points) {
+                submitterData.bestTrack = {
+                    track: trackResult,
+                    points: trackPoints
+                }
+            }
         });
+
+        for (const submitter in voteHistories) {
+            const tracksThisRound = tracksPerUserThisRound.get(submitter);
+            const submitterData = voteHistories[submitter];
+            if (tracksThisRound === undefined || submitterData === undefined) {
+                continue;
+            }
+            const totalPoints = tracksThisRound.reduce((total, track) => total + totalTrackPoints(track), 0);
+            if (submitterData.bestRound === undefined || totalPoints > submitterData.bestRound.points) {
+                submitterData.bestRound = {
+                    round,
+                    points: totalPoints
+                }
+            }
+        }
     });
 
     for (const submitter in voteHistories) {
@@ -248,8 +262,8 @@ function getVoteHistories(rounds: IRound[]): IVoteHistories {
             if (submitter === voter) {
                 continue;
             }
-            if (userHistories[voter] == null) {
-                userHistories[voter] = emptyVoteHistory(submitter, voter);
+            if (userHistories.voteHistory[voter] == null) {
+                userHistories.voteHistory[voter] = emptyVoteHistory(submitter, voter);
             }
         }
     }
@@ -261,6 +275,10 @@ export interface IVoterAlignment {
     userOne: string;
     userTwo: string;
     points: number;
+}
+
+function totalTrackPoints(track: ITrackResult): number {
+    return track.votes.reduce((total, vote) => total + vote.points, 0);
 }
 
 function getVoterAlignment(rounds: IRound[]) {

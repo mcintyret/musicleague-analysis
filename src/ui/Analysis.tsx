@@ -1,20 +1,24 @@
 import {NonIdealState} from "@blueprintjs/core";
 import * as React from "react";
-import {analyzeLeagueV2, IAnalysis, IGlobalAnalysis, IUserAnalysis, IVoteHistory, IVoterAlignment} from "../analyze";
+import {
+    analyzeLeague,
+    IBestRound,
+    IBestTrack,
+    IGlobalAnalysis,
+    IUserAnalysis,
+    IVoteHistory,
+    IVoterAlignment
+} from "../analyze";
 import * as leagues from "../leagues.json";
-import {IRound} from "../types";
 import {LeagueSelector} from "./LeagueSelector";
+import {flatten} from "../utils";
 
 export const Analysis = () => {
     const [selectedLeagues, setSelectedLeagues] = React.useState(leagues)
 
-    const allRounds = React.useMemo(() => {
-        const rounds: IRound[] = [];
-        selectedLeagues.forEach(league => rounds.push(...league.rounds));
-        return rounds;
-    }, [selectedLeagues]);
+    const allRounds = React.useMemo(() => flatten(selectedLeagues.map(league => league.rounds)), [selectedLeagues]);
 
-    const analysis = React.useMemo(() => analyzeLeagueV2(allRounds), [allRounds]);
+    const analysis = React.useMemo(() => analyzeLeague(allRounds), [allRounds]);
 
     const content = allRounds.length === 0
         ? <NonIdealState title="Pick some leagues!"/>
@@ -22,7 +26,7 @@ export const Analysis = () => {
             <GlobalAnalysis {...analysis.global} />
             {Object.values(analysis.user).map(userAnalysis => <UserAnalysis
                 key={userAnalysis.user} {...userAnalysis} />)}
-          </>)
+        </>)
 
     return (
         <>
@@ -51,10 +55,15 @@ const GlobalAnalysis: React.FC<IGlobalAnalysis> = (analysis) => {
     );
 };
 
-const UserAnalysis: React.FC<IUserAnalysis> = (analysis) => {
+const UserAnalysis: React.FC<IUserAnalysis> = analysis => {
     return (
         <div id={analysis.user} className="analysis">
             <div className="analysis-title">{analysis.user}</div>
+            <TotalPointsReceived {...analysis} />
+            <TotalRoundsPlayed {...analysis} />
+            <AveragePointsPerTrack {...analysis} />
+            <BestRound {...analysis.bestRound} />
+            <BestTrack {...analysis.bestTrack} />
             <MostPointsGiven {...analysis.mostPointsGivenTo} />
             <FewestPointsGiven {...analysis.fewestPointsGivenTo} />
             <MostPointsGivenByThisUser {...analysis.mostPointsGivenByThisUser} />
@@ -69,10 +78,26 @@ const UserAnalysis: React.FC<IUserAnalysis> = (analysis) => {
 };
 
 const User: React.FC<{ user: string }> = ({user}) => {
-    return <span className="user">{user}</span>;
+    const username = user ? user : "murphs87";
+    return <span className="user">{username}</span>;
 };
 
 const AnalysisLine: React.FC = ({children}) => <div className="analysis-line">{children}</div>;
+
+const TotalPointsReceived: React.FC<IUserAnalysis> = ({totalPointsReceived}) =>
+    <AnalysisLine>Total points received: {totalPointsReceived}</AnalysisLine>
+
+const TotalRoundsPlayed: React.FC<IUserAnalysis> = ({totalRoundsPlayed}) =>
+    <AnalysisLine>Total rounds played: {totalRoundsPlayed}</AnalysisLine>
+
+const AveragePointsPerTrack: React.FC<IUserAnalysis> = ({averagePointsPerTrack}) =>
+    <AnalysisLine>Average points per track: {averagePointsPerTrack.toFixed(2)}</AnalysisLine>
+
+const BestRound: React.FC<IBestRound> = ({round, points}) =>
+    <AnalysisLine>Best round: {points} points in <User user={round.title}/></AnalysisLine>
+
+const BestTrack: React.FC<IBestTrack> = ({track, points}) =>
+    <AnalysisLine>Best track: {points} points for <a href={track.track.spotifyLink}>{track.track.name}</a></AnalysisLine>
 
 const MostPointsGiven: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
