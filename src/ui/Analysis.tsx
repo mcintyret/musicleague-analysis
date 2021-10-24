@@ -13,6 +13,8 @@ import * as leagues from "../leagues.json";
 import {LeagueSelector} from "./LeagueSelector";
 import {flatten} from "../utils";
 
+const JONS_USERNAME = "murphs87";
+
 export const Analysis = () => {
     const [selectedLeagues, setSelectedLeagues] = React.useState(leagues)
 
@@ -58,7 +60,7 @@ const GlobalAnalysis: React.FC<IGlobalAnalysis> = (analysis) => {
 const UserAnalysis: React.FC<IUserAnalysis> = analysis => {
     return (
         <div id={analysis.user} className="analysis">
-            <div className="analysis-title">{analysis.user}</div>
+            <div className="analysis-title">{analysis.user ? analysis.user : JONS_USERNAME}</div>
             <TotalPointsReceived {...analysis} />
             <TotalRoundsPlayed {...analysis} />
             <AveragePointsPerTrack {...analysis} />
@@ -78,7 +80,7 @@ const UserAnalysis: React.FC<IUserAnalysis> = analysis => {
 };
 
 const User: React.FC<{ user: string }> = ({user}) => {
-    const username = user ? user : "murphs87";
+    const username = user ? user : JONS_USERNAME;
     return <span className="user">{username}</span>;
 };
 
