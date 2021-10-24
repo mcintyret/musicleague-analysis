@@ -1,13 +1,37 @@
+import {NonIdealState} from "@blueprintjs/core";
 import * as React from "react";
-import * as league from "../data.json";
-import { analyzeLeagueV2, IAnalysis, IGlobalAnalysis, IUserAnalysis, IVoteHistory, IVoterAlignment } from "../analyze";
+import {analyzeLeagueV2, IAnalysis, IGlobalAnalysis, IUserAnalysis, IVoteHistory, IVoterAlignment} from "../analyze";
+import * as leagues from "../leagues.json";
+import {IRound} from "../types";
+import {LeagueSelector} from "./LeagueSelector";
 
 export const Analysis = () => {
-    const analysis = analyzeLeagueV2(league);
+    const [selectedLeagues, setSelectedLeagues] = React.useState(leagues)
+
+    const allRounds = React.useMemo(() => {
+        const rounds: IRound[] = [];
+        selectedLeagues.forEach(league => rounds.push(...league.rounds));
+        return rounds;
+    }, [selectedLeagues]);
+
+    const analysis = React.useMemo(() => analyzeLeagueV2(allRounds), [allRounds]);
+
+    const content = allRounds.length === 0
+        ? <NonIdealState title="Pick some leagues!"/>
+        : (<>
+            <GlobalAnalysis {...analysis.global} />
+            {Object.values(analysis.user).map(userAnalysis => <UserAnalysis
+                key={userAnalysis.user} {...userAnalysis} />)}
+          </>)
+
     return (
         <>
-            <GlobalAnalysis {...analysis.global} />
-            {Object.values(analysis.user).map(userAnalysis => <UserAnalysis key={userAnalysis.user} {...userAnalysis} />)}
+            <LeagueSelector
+                allLeagues={leagues}
+                selectedLeagues={selectedLeagues}
+                onSelectLeagues={setSelectedLeagues}
+            />
+            {content}
         </>
     );
 };
@@ -44,13 +68,13 @@ const UserAnalysis: React.FC<IUserAnalysis> = (analysis) => {
     );
 };
 
-const User: React.FC<{ user: string }> = ({ user }) => {
+const User: React.FC<{ user: string }> = ({user}) => {
     return <span className="user">{user}</span>;
 };
 
-const AnalysisLine: React.FC = ({ children }) => <div className="analysis-line">{children}</div>;
+const AnalysisLine: React.FC = ({children}) => <div className="analysis-line">{children}</div>;
 
-const MostPointsGiven: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const MostPointsGiven: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
             Most points given: <User user={voter}/> gave <User user={submitter}/> {pluralize("point", totalPoints)}
@@ -58,7 +82,7 @@ const MostPointsGiven: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints
     );
 };
 
-const FewestPointsGiven: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const FewestPointsGiven: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
             Fewest points given: <User user={voter}/> gave <User user={submitter}/> {pluralize("point", totalPoints)}
@@ -66,7 +90,7 @@ const FewestPointsGiven: React.FC<IVoteHistory> = ({ voter, submitter, totalPoin
     );
 };
 
-const MostPointsGivenByThisUser: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const MostPointsGivenByThisUser: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
             Most points given to: <User user={voter}/> gave <User user={submitter}/> {pluralize("point", totalPoints)}
@@ -74,7 +98,7 @@ const MostPointsGivenByThisUser: React.FC<IVoteHistory> = ({ voter, submitter, t
     );
 };
 
-const FewestPointsGivenByThisUser: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const FewestPointsGivenByThisUser: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
             Fewest points given to: <User user={voter}/> gave <User user={submitter}/> {pluralize("point", totalPoints)}
@@ -82,26 +106,29 @@ const FewestPointsGivenByThisUser: React.FC<IVoteHistory> = ({ voter, submitter,
     );
 };
 
-const BestPartnership: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const BestPartnership: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
-            Best Partnership: <User user={voter} /> and <User user={submitter} /> gave each other {pluralize("point", totalPoints)}
+            Best Partnership: <User user={voter}/> and <User user={submitter}/> gave each
+            other {pluralize("point", totalPoints)}
         </AnalysisLine>
     );
 };
 
-const WorstPartnership: React.FC<IVoteHistory> = ({ voter, submitter, totalPoints }) => {
+const WorstPartnership: React.FC<IVoteHistory> = ({voter, submitter, totalPoints}) => {
     return (
         <AnalysisLine>
-            Worst Partnership: <User user={voter} /> and <User user={submitter} /> gave each other {pluralize("point", totalPoints)}
+            Worst Partnership: <User user={voter}/> and <User user={submitter}/> gave each
+            other {pluralize("point", totalPoints)}
         </AnalysisLine>
     );
 };
 
-const LeastInterested: React.FC<IVoteHistory> = ({ voter, submitter, totalVotes }) => {
+const LeastInterested: React.FC<IVoteHistory> = ({voter, submitter, totalVotes}) => {
     return (
         <AnalysisLine>
-            Least Interested: <User user={voter} /> and <User user={submitter} /> only voted for each other {pluralize("time", totalVotes)}
+            Least Interested: <User user={voter}/> and <User user={submitter}/> only voted for each
+            other {pluralize("time", totalVotes)}
         </AnalysisLine>
     );
 };
@@ -109,7 +136,8 @@ const LeastInterested: React.FC<IVoteHistory> = ({ voter, submitter, totalVotes 
 const SameWavelength: React.FC<IVoterAlignment> = ({userOne, userTwo, points}) => {
     return (
         <AnalysisLine>
-            Same Wavelength: <User user={userOne} /> and <User user={userTwo} /> gave {pluralize("point", points)} to the same track
+            Same Wavelength: <User user={userOne}/> and <User user={userTwo}/> gave {pluralize("point", points)} to the
+            same track
         </AnalysisLine>
     )
 }
@@ -117,7 +145,8 @@ const SameWavelength: React.FC<IVoterAlignment> = ({userOne, userTwo, points}) =
 const DifferentWavelength: React.FC<IVoterAlignment> = ({userOne, userTwo, points}) => {
     return (
         <AnalysisLine>
-            Different Wavelength: <User user={userOne} /> and <User user={userTwo} /> gave {pluralize("point", points)} to the same track
+            Different Wavelength: <User user={userOne}/> and <User user={userTwo}/> gave {pluralize("point", points)} to
+            the same track
         </AnalysisLine>
     )
 }

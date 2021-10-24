@@ -1,8 +1,15 @@
 import { ILeague, ITrack, ITrackResult, IUser } from "./types";
 import got from "got";
 import cheerio, { Cheerio, Element } from "cheerio";
+import * as fs from "fs";
 
-const cookie = "session=.eJw9kMmSmzAARP-Fs6lCYp8bAszAYJaMWeILBbKEgUFgAR7Hqfx7yCXn7up6r38L1Uz4WDPCVuFt5Rs5CDXGZFmqdRoIE94ElFpUxpcfSaCArwjIvlaEF_U4GWPnuUW0GqKbIxRnX7wRV6WrE2PyZ50WXnTLEOIPNwew5Ikd3qWGpqFXaJFWuxnGiwSlz5PYX6g6OvS7nLi_vZ7vwQnEI4m7xYrVF4_uj87OhzYmDP5K30nNApTTc7pGwkHAG-c7eLUthO-kAABVkhTdhPoekufccbJU9S4GNAiBYmiGdhC6615VCWz-eYoSNHVR0TVFbAxFEhXpinEDVVXSyL7BCd0nbv-_sFInhfPSBMYkg5my2-CHw9me2VBaVzMjw6exvXpm2rkz21tybD_0llYyOw5brlg_o_gbB2HS9OeOnkWSoiqOH2Ap5A-9KLzs9Tyajt5uCA1u78hgFPvkVF7voxmRk--VedJCV_jzF8xgi2M.YK_81w.yjQ_nNAkgsuRjRorZAntb4qdUOA";
+const cookie = "session=.eJw9kMmOozAARP_F5yCxGey-wdAhZKEbZx0uCIwJhIDBrEmr_304za2kKj1V1Q-IGiaquGZ1Dz56MbAViCllXRf1vGQ1-AB2YM-XcMis77EcLRrNTU_P5-uh_jSDrbe2d2FH4AMfjKzoVAEFotfGbp3zi1SZn3vEM-WdZJ_Sxq_a2pE2ptRp3wQ7rH2OQ4CycB_of-9rf2241q1LtIBP_SuI56O3h9iQtmpFvoqXKqv8ma3vb4UncTKY9gxWgA5CLMWjoWNiaaooCpRl3cSquZhsbgrBuihehimGBmWEVN1cgSJdohhTDUGkSYasGJIOMZVijZmSuYzHOoPpIhaGYNmCyP9_YQWWULRJIn4uxvhRhY9Tm0fT6eUf3EJ-tps7matjiHgxvSfquWLXtASW9LrpbX_SuwARP-O4mEbECN8-8kPm3K7c4gkrrFScL_vKSS7He5nhPze3Vbx5PulpyyLmzmW9o0-CwO8_G4uPZQ.YXVqhg.EBEA9VcFdkCVZVRjNcqD6IKZ19M";
+
+const leagueIds = [
+    // "f85aed70522a418091741a64c7e18d2c", // I beleague in a thing called love
+    "60a135402d18dc0022c27d4a", // Don't stop beleaguing
+    "607226726c5a98003664c1f8", // I'm a beleaguer
+]
 
 function getRoundId(titleLink: Cheerio<Element>, leagueId: string) {
     const link = titleLink.attr("href");
@@ -48,7 +55,7 @@ async function loadTrackResults(leagueId: string, roundId: string): Promise<ITra
     }).toArray();
 }
 
-export async function downloadLeague(leagueId: string): Promise<ILeague> {
+async function downloadLeague(leagueId: string): Promise<ILeague> {
     const response = await got(`https://musicleague.app/l/${leagueId}/`, { headers: { cookie } });
     const $ = cheerio.load(response.body);
 
@@ -73,3 +80,11 @@ export async function downloadLeague(leagueId: string): Promise<ILeague> {
 
     return { id: leagueId, title, rounds };
 }
+
+export async function downloadAndSaveAllLeagues() {
+    const allLeagues = await Promise.all(leagueIds.map(downloadLeague));
+    const stringified = JSON.stringify(allLeagues, null, 2);
+    fs.writeFileSync("src/leagues.json", stringified);
+}
+
+downloadAndSaveAllLeagues().then(() => console.log("Done"));

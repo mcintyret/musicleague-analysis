@@ -1,4 +1,4 @@
-import { ILeague } from "./types";
+import {IRound} from "./types";
 
 function flatten<T>(array: T[][]): T[] {
     const result: T[] = [];
@@ -46,8 +46,8 @@ export interface IAnalysis {
  * - Worst enemies (fewest points from A to B)
  * - Different wavelength (fewest votes on each-others stuff)
  */
-export function analyzeLeague(league: ILeague) {
-    const voteHistories = getVoteHistories(league);
+export function analyzeLeague(rounds: IRound[]) {
+    const voteHistories = getVoteHistories(rounds);
 
     const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh)));
     console.info("Global results");
@@ -87,17 +87,17 @@ export function analyzeLeague(league: ILeague) {
         console.info();
     }
 
-    const alignments = getVoterAlignment(league);
+    const alignments = getVoterAlignment(rounds);
     const leastAligned = alignments[0];
     console.info(`Least aligned: ${leastAligned.userOne} and ${leastAligned.userTwo} gave ${leastAligned.points} points to the same track`);
     const mostAligned = alignments[alignments.length - 1];
     console.info(`Most aligned: ${mostAligned.userOne} and ${mostAligned.userTwo} gave ${mostAligned.points} points to the same track`);
 }
 
-export function analyzeLeagueV2(league: ILeague): IAnalysis {
-    const voteHistories = getVoteHistories(league);
+export function analyzeLeagueV2(rounds: IRound[]): IAnalysis {
+    const voteHistories = getVoteHistories(rounds);
     const pairwise = generatePairwiseHistories(voteHistories);
-    const alignments = getVoterAlignment(league);
+    const alignments = getVoterAlignment(rounds);
 
     const allVoteHistories = flatten(Object.values(voteHistories).map(vh => Object.values(vh)));
     const global = analyzeHistories(allVoteHistories, pairwise, alignments);
@@ -215,9 +215,9 @@ function emptyVoteHistory(submitter: string, voter: string) {
     }
 }
 
-function getVoteHistories(league: ILeague): IVoteHistories {
+function getVoteHistories(rounds: IRound[]): IVoteHistories {
     const voteHistories: { [submitter: string]: { [voter: string]: IVoteHistory } } = {};
-    league.rounds.forEach(round => {
+    rounds.forEach(round => {
         round.trackResults.forEach(trackResult => {
             const submitter = trackResult.submittedBy.username;
             if (voteHistories[submitter] === undefined) {
@@ -263,8 +263,8 @@ export interface IVoterAlignment {
     points: number;
 }
 
-function getVoterAlignment(league: ILeague) {
-    const users = getUsers(league);
+function getVoterAlignment(rounds: IRound[]) {
+    const users = getUsers(rounds);
     const alignments: IVoterAlignment[] = [];
     for (let i = 0; i < users.length - 1; i++) {
         const userOne = users[i];
@@ -273,7 +273,7 @@ function getVoterAlignment(league: ILeague) {
 
             let totalAlignment = 0;
 
-            league.rounds.forEach(round => {
+            rounds.forEach(round => {
                 round.trackResults.forEach(track => {
                     if (track.submittedBy.username === userOne || track.submittedBy.username === userTwo) {
                         return;
@@ -297,9 +297,9 @@ function getVoterAlignment(league: ILeague) {
     return alignments;
 }
 
-function getUsers(league: ILeague): string[] {
+function getUsers(rounds: IRound[]): string[] {
     const users = new Set<string>();
-    league.rounds.forEach(round => {
+    rounds.forEach(round => {
         round.trackResults.forEach(trackResult => {
             users.add(trackResult.submittedBy.username);
         });
