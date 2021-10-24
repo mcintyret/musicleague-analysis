@@ -184,7 +184,7 @@ const SameWavelength: React.FC<IVoterAlignment> = ({userOne, userTwo, points}) =
     return (
         <AnalysisLine>
             Same Wavelength: <User user={userOne}/> and <User user={userTwo}/> gave {pluralize("point", points)} to the
-            same track
+            same tracks
         </AnalysisLine>
     )
 }
@@ -193,7 +193,7 @@ const DifferentWavelength: React.FC<IVoterAlignment> = ({userOne, userTwo, point
     return (
         <AnalysisLine>
             Different Wavelength: <User user={userOne}/> and <User user={userTwo}/> gave {pluralize("point", points)} to
-            the same track
+            the same tracks
         </AnalysisLine>
     )
 }
