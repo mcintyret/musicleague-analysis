@@ -1,0 +1,56 @@
+@font-face {
+  font-family: Cubano;
+  src: url(https://s3.amazonaws.com/musicleague-static-assets/fonts/cubano-regular-webfont.ttf);
+}
+
+body {
+  margin: 0;
+}
+
+#image-bar {
+  background-image: url('https://s3.amazonaws.com/musicleague-static-assets/images/ml_header22.jpg');
+  background-attachment: scroll;
+  background-position: 50% 40%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#title-bar {
+  background: none;
+  color: #fff;
+  padding: 50px 0px;
+  text-align: center;
+  font-family: 'Cubano', sans-serif;
+  font-size: 60px;
+  line-height: 72px;
+}
+
+.analysis {
+  font-family: 'Cubano', sans-serif;
+
+  .analysis-title {
+    background-color: #02b8ef;
+    color: #fff;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .analysis-line {
+    &:nth-child(even) {
+      background-color: #F7F7F7;
+    }
+
+    color: #02b8ef;
+    .user {
+      color: #00259A;
+    }
+
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+}

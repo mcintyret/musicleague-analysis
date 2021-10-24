@@ -1,7 +1,7 @@
 {
-  "name": "finance-app",
+  "name": "musicleague-analysis",
   "version": "0.0.1",
-  "description": "Finance App",
+  "description": "Musicleague Analysis",
   "main": "webpack.config.js",
   "license": "UNLICENSED",
   "private": true,
@@ -12,16 +12,30 @@
     "lint": "./node_modules/tslint/bin/tslint --project .",
     "watch": "npm-run-all compile -p watch:typescript hot:run",
     "watch:typescript": "tsc -w -p .",
-    "hot:run": "webpack-dev-server --hot --inline --port=8200",
+    "hot:run": "webpack-dev-server --hot --inline --port=8202",
     "pack": "webpack"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.9",
-    "got": "^11.8.2"
+    "got": "^11.8.2",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
   },
   "devDependencies": {
     "@types/node": "^15.6.1",
+    "@types/react": "^16.14.11",
+    "@types/react-dom": "^16.9.14",
+    "awesome-typescript-loader": "^3.3.0",
+    "css-loader": "^0.28.7",
+    "less": "^2.7.1",
+    "less-loader": "^4.0.5",
+    "npm": "5.4.2",
+    "npm-run-all": "4.1.1",
+    "style-loader": "^0.18.2",
     "ts-node": "^10.0.0",
-    "typescript": "^4.3.2"
+    "typescript": "^4.3.2",
+    "uglifyjs-webpack-plugin": "1.0.0-beta.3",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
   }
 }

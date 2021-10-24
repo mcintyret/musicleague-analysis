@@ -5,6 +5,7 @@
     "noImplicitAny": true,
     "outDir": "build/tmp",
     "removeComments": false,
+    "resolveJsonModule": true,
     "sourceMap": true,
     "target": "ES5",
     "allowJs": true,
